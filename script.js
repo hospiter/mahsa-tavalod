@@ -4,7 +4,7 @@
   const BIRTHDAY_DAY = 27;
 
   // Update this once the flappy-star game is live on GitHub Pages.
-  const GIFT_URL = "https://YOUR-GITHUB-USERNAME.github.io/mahsa-star-flappy/";
+  const GIFT_URL = "https://hospiter.github.io/star-mahsa-game/";
 
   const countdownView = document.getElementById("countdownView");
   const celebrateView = document.getElementById("celebrateView");
