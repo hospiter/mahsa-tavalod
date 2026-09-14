@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>تولد مهسا 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+  <div class="floaters" id="floaters"></div>
+
+  <main class="card" id="card">
+
+    <!-- countdown view -->
+    <section class="view" id="countdownView">
+      <div class="tiny-label">تا لحظه‌ی رسیدنش</div>
+      <h1>یه چیزی داره نزدیک میشه... 🎈</h1>
+      <p class="subtitle">۲۷ شهریور، تولد مهساست</p>
+
+      <div class="counters">
+        <div class="counter">
+          <span class="counter__value" id="valDays">--</span>
+          <span class="counter__label">روز</span>
+        </div>
+        <div class="counter">
+          <span class="counter__value" id="valHours">--</span>
+          <span class="counter__label">ساعت</span>
+        </div>
+        <div class="counter">
+          <span class="counter__value" id="valMinutes">--</span>
+          <span class="counter__label">دقیقه</span>
+        </div>
+        <div class="counter">
+          <span class="counter__value" id="valSeconds">--</span>
+          <span class="counter__label">ثانیه</span>
+        </div>
+      </div>
+
+      <p class="note">هر ثانیه که میگذره، یه ثانیه به یه روز قشنگ‌تر نزدیک‌تریم 💗</p>
+    </section>
+
+    <!-- celebration view (hidden until midnight hits) -->
+    <section class="view celebrate-view" id="celebrateView" hidden>
+      <div class="cake">🎂</div>
+      <div class="tiny-label">امروز روز توئه</div>
+      <h1 class="celebrate-title">تولدت مبارک مهسا 🎉</h1>
+      <p class="celebrate-text">
+        امیدوارم امسال، سالِ لبخندای بی‌وقفه‌ت باشه،<br>
+        سالِ آرامش، سالِ همه‌ی چیزایی که لیاقتشو داری. 🌷<br>
+        هر روزت مثل امروز، پر از شادی باشه.
+      </p>
+      <a class="gift-btn" id="giftBtn" href="#" target="_blank" rel="noopener">
+        یه هدیه‌ی دیگه هم برات دارم 🎁
+      </a>
+    </section>
+
+  </main>
+
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
